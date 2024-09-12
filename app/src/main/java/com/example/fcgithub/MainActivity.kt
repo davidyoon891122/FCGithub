@@ -49,15 +49,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-//        githubService.listRepos("square").enqueue(object: Callback<List<Repo>> {
-//            override fun onResponse(p0: Call<List<Repo>>, p1: Response<List<Repo>>) {
-//                Log.e("MainActivity", p1.body().toString())
-//            }
-//
-//            override fun onFailure(p0: Call<List<Repo>>, p1: Throwable) {
-//                Log.e("MainActivity", p1.toString())
-//            }
-//        })
 
         binding.userRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
